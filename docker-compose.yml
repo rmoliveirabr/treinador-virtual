@@ -1,0 +1,26 @@
+services:
+  json-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.json-server
+    ports:
+      - "3001:3001"
+    networks:
+      - app-network
+
+  treinador:
+    build:
+      context: .
+      dockerfile: Dockerfile.treinador
+    ports:
+      - "3000:3000"
+    environment:
+      - JSONAPI_URL=http://json-server:3001
+    depends_on:
+      - json-server
+    networks:
+      - app-network
+    
+networks:
+  app-network:
+    driver: bridge
