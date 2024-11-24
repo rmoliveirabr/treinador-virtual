@@ -6,6 +6,7 @@ export type Theme = {
   id: string;
   theme: string;
   isActive: boolean;
+  userLevel: number;
 };
 
 export const useTheme = (themeId: string) => {

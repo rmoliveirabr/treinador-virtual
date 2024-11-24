@@ -9,9 +9,30 @@
     },
     {
       "id": "c93a42b8-0aab-42b7-a41a-ed215e549b21",
-      "theme": "Programação",
+      "theme": "Outro",
       "creationDate": "2024-10-30T11:18:21.420Z",
       "userLevel": 2,
+      "isActive": true
+    },
+    {
+      "id": "6ba056a3-c880-4653-a04d-ec189013be6f",
+      "theme": "Vinhos",
+      "creationDate": "2024-11-24T13:43:34.017Z",
+      "userLevel": 3,
+      "isActive": true
+    },
+    {
+      "id": "9cc0e8ed-0c69-45af-bd85-965482b8fee1",
+      "theme": "Programação",
+      "creationDate": "2024-11-24T14:10:10.524Z",
+      "userLevel": 3,
+      "isActive": true
+    },
+    {
+      "id": "c20935ce-9eee-47a3-b4f2-77a32db332cc",
+      "theme": "Novo",
+      "creationDate": "2024-11-24T14:22:23.255Z",
+      "userLevel": 4,
       "isActive": true
     }
   ],
@@ -68,6 +89,34 @@
       "creationDate": "2024-10-30T11:23:28.517Z",
       "type": "assessment",
       "themeId": "c93a42b8-0aab-42b7-a41a-ed215e549b21"
+    },
+    {
+      "id": "7c35436b-60e9-475a-8207-45fe1e0efea6",
+      "creationDate": "2024-11-24T13:46:35.327Z",
+      "userExecutionDate": "2024-11-24T13:46:49.809Z",
+      "type": "assessment",
+      "themeId": "6ba056a3-c880-4653-a04d-ec189013be6f"
+    },
+    {
+      "id": "4dfc12b7-1432-4818-92c7-8c53b2086fe7",
+      "creationDate": "2024-11-24T14:21:00.995Z",
+      "userExecutionDate": "2024-11-24T14:21:11.660Z",
+      "type": "assessment",
+      "themeId": "9cc0e8ed-0c69-45af-bd85-965482b8fee1"
+    },
+    {
+      "id": "e44c1497-b953-4952-bb14-6fb6d62ae273",
+      "creationDate": "2024-11-24T14:22:28.215Z",
+      "userExecutionDate": "2024-11-24T14:22:44.929Z",
+      "type": "assessment",
+      "themeId": "c20935ce-9eee-47a3-b4f2-77a32db332cc"
+    },
+    {
+      "id": "526ed750-19c4-4431-901f-721f656b83c0",
+      "creationDate": "2024-11-24T14:32:27.613Z",
+      "userExecutionDate": "2024-11-24T14:32:35.593Z",
+      "type": "assessment",
+      "themeId": "c20935ce-9eee-47a3-b4f2-77a32db332cc"
     }
   ],
   "questions": [
@@ -176,6 +225,62 @@
       "question": "Pergunta 2",
       "order": 2,
       "testId": "8c966dc5-3f00-4f37-bb8b-654dc2e0fa8a"
+    },
+    {
+      "id": "02047f83-8006-4bcd-bacf-183b287d95bc",
+      "question": "Pergunta 1",
+      "order": 1,
+      "testId": "7c35436b-60e9-475a-8207-45fe1e0efea6",
+      "userAnswerId": "e1595d3b-c3fe-41f1-95a8-b03d9dde285b"
+    },
+    {
+      "id": "7839c590-83e5-4555-b0b3-c80d0ba2b4f5",
+      "question": "Pergunta 2",
+      "order": 2,
+      "testId": "7c35436b-60e9-475a-8207-45fe1e0efea6",
+      "userAnswerId": "f17fcf9f-d0ec-4428-acde-b1a5020fd079"
+    },
+    {
+      "id": "4b242a72-c5b9-4c60-b40e-ef8e91e73d95",
+      "question": "Pergunta 1",
+      "order": 1,
+      "testId": "4dfc12b7-1432-4818-92c7-8c53b2086fe7",
+      "userAnswerId": "a368445a-a893-4f2f-8276-5d9ed3b3a95b"
+    },
+    {
+      "id": "83cf5ce7-9609-4d23-a6cd-0e861eff4ca5",
+      "question": "Pergunta 2",
+      "order": 2,
+      "testId": "4dfc12b7-1432-4818-92c7-8c53b2086fe7",
+      "userAnswerId": "87dc6def-74c4-4e96-a84f-a58f170b8ffb"
+    },
+    {
+      "id": "04afb503-c656-4dc3-a6d3-4bed1bff40b1",
+      "question": "Pergunta 1",
+      "order": 1,
+      "testId": "e44c1497-b953-4952-bb14-6fb6d62ae273",
+      "userAnswerId": "9bf0aa8c-fe0d-467b-b7cc-8a95d2b88162"
+    },
+    {
+      "id": "9b1be3da-39bd-41cc-a13b-cbf7f0bd7a1d",
+      "question": "Pergunta 2",
+      "order": 2,
+      "testId": "e44c1497-b953-4952-bb14-6fb6d62ae273",
+      "userAnswerId": "5d9281a7-4996-47dc-a555-94876f0a661b"
+    },
+    {
+      "id": "dd709a2e-2b57-401a-9e7b-318998181ec5",
+      "question": "Pergunta 1",
+      "order": 1,
+      "testId": "526ed750-19c4-4431-901f-721f656b83c0",
+      "userAnswerId": "2d1f8522-8f99-4de8-82b5-a3f36889a897"
+    },
+    {
+      "id": "4303d0c1-b7e1-4b0c-ab43-0f08f40d8d21",
+      "question": "Pergunta 2",
+      "order": 2,
+      "testId": "526ed750-19c4-4431-901f-721f656b83c0",
+      "userAnswerId": "9f2ef44e-bb7b-4a60-be12-27326b82b224"
     }
   ],
   "options": [
@@ -434,6 +539,134 @@
       "explanation": "Explicação 4",
       "isCorrect": false,
       "questionId": "5f116b5f-0c82-43c5-8052-122cc9995134"
+    },
+    {
+      "id": "e1595d3b-c3fe-41f1-95a8-b03d9dde285b",
+      "option": "Resposta 1.1",
+      "order": 1,
+      "explanation": "Explicação 1",
+      "isCorrect": true,
+      "questionId": "02047f83-8006-4bcd-bacf-183b287d95bc"
+    },
+    {
+      "id": "e4014a02-3821-4aa6-8d52-91425478a2a7",
+      "option": "Resposta 1.2",
+      "order": 2,
+      "explanation": "Explicação 2",
+      "isCorrect": false,
+      "questionId": "02047f83-8006-4bcd-bacf-183b287d95bc"
+    },
+    {
+      "id": "f17fcf9f-d0ec-4428-acde-b1a5020fd079",
+      "option": "Resposta 2.1",
+      "order": 1,
+      "explanation": "Explicação 3",
+      "isCorrect": true,
+      "questionId": "7839c590-83e5-4555-b0b3-c80d0ba2b4f5"
+    },
+    {
+      "id": "fa7688f1-383b-49ca-bc90-373730cbf8a7",
+      "option": "Resposta 2.2",
+      "order": 2,
+      "explanation": "Explicação 4",
+      "isCorrect": false,
+      "questionId": "7839c590-83e5-4555-b0b3-c80d0ba2b4f5"
+    },
+    {
+      "id": "a368445a-a893-4f2f-8276-5d9ed3b3a95b",
+      "option": "Resposta 1.1",
+      "order": 1,
+      "explanation": "Explicação 1",
+      "isCorrect": true,
+      "questionId": "4b242a72-c5b9-4c60-b40e-ef8e91e73d95"
+    },
+    {
+      "id": "7106914f-1a31-41c3-a4ac-469c535bbc55",
+      "option": "Resposta 1.2",
+      "order": 2,
+      "explanation": "Explicação 2",
+      "isCorrect": false,
+      "questionId": "4b242a72-c5b9-4c60-b40e-ef8e91e73d95"
+    },
+    {
+      "id": "87dc6def-74c4-4e96-a84f-a58f170b8ffb",
+      "option": "Resposta 2.1",
+      "order": 1,
+      "explanation": "Explicação 3",
+      "isCorrect": true,
+      "questionId": "83cf5ce7-9609-4d23-a6cd-0e861eff4ca5"
+    },
+    {
+      "id": "b5712d40-61da-4fd7-886e-92521033befb",
+      "option": "Resposta 2.2",
+      "order": 2,
+      "explanation": "Explicação 4",
+      "isCorrect": false,
+      "questionId": "83cf5ce7-9609-4d23-a6cd-0e861eff4ca5"
+    },
+    {
+      "id": "9bf0aa8c-fe0d-467b-b7cc-8a95d2b88162",
+      "option": "Resposta 1.1",
+      "order": 1,
+      "explanation": "Explicação 1",
+      "isCorrect": true,
+      "questionId": "04afb503-c656-4dc3-a6d3-4bed1bff40b1"
+    },
+    {
+      "id": "2e814e92-5e85-47f3-a04b-a42a74195e23",
+      "option": "Resposta 1.2",
+      "order": 2,
+      "explanation": "Explicação 2",
+      "isCorrect": false,
+      "questionId": "04afb503-c656-4dc3-a6d3-4bed1bff40b1"
+    },
+    {
+      "id": "5d9281a7-4996-47dc-a555-94876f0a661b",
+      "option": "Resposta 2.1",
+      "order": 1,
+      "explanation": "Explicação 3",
+      "isCorrect": true,
+      "questionId": "9b1be3da-39bd-41cc-a13b-cbf7f0bd7a1d"
+    },
+    {
+      "id": "36c3ed97-e1bd-4e6d-867e-57cac8d94730",
+      "option": "Resposta 2.2",
+      "order": 2,
+      "explanation": "Explicação 4",
+      "isCorrect": false,
+      "questionId": "9b1be3da-39bd-41cc-a13b-cbf7f0bd7a1d"
+    },
+    {
+      "id": "393de1b5-c6e1-40a2-966e-9aa7a9c27c52",
+      "option": "Resposta 1.1",
+      "order": 1,
+      "explanation": "Explicação 1",
+      "isCorrect": true,
+      "questionId": "dd709a2e-2b57-401a-9e7b-318998181ec5"
+    },
+    {
+      "id": "2d1f8522-8f99-4de8-82b5-a3f36889a897",
+      "option": "Resposta 1.2",
+      "order": 2,
+      "explanation": "Explicação 2",
+      "isCorrect": false,
+      "questionId": "dd709a2e-2b57-401a-9e7b-318998181ec5"
+    },
+    {
+      "id": "9727073b-2f0c-4780-849f-4df565786e38",
+      "option": "Resposta 2.1",
+      "order": 1,
+      "explanation": "Explicação 3",
+      "isCorrect": true,
+      "questionId": "4303d0c1-b7e1-4b0c-ab43-0f08f40d8d21"
+    },
+    {
+      "id": "9f2ef44e-bb7b-4a60-be12-27326b82b224",
+      "option": "Resposta 2.2",
+      "order": 2,
+      "explanation": "Explicação 4",
+      "isCorrect": false,
+      "questionId": "4303d0c1-b7e1-4b0c-ab43-0f08f40d8d21"
     }
   ],
   "informations": [

@@ -2,16 +2,20 @@
 
 import { useForm } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { showToast } from '@/components/ui/toast';
 
 import { QuestionOptionsDto, AnswersDto } from '@/backend/domain/dto/question-options';
+
+import { ThemeContext } from '@/contexts/theme-context';
 
 export function useSaveTest(questionsOptions: QuestionOptionsDto[]) {
   const router = useRouter();
   const { handleSubmit, register, formState: { errors }, watch } = useForm();
 
   const [answers, setAnswers] = useState<AnswersDto>({});
+
+  const { setRefreshThemeList } = useContext(ThemeContext);
 
   useEffect(() => {
     if (questionsOptions) {
@@ -76,6 +80,8 @@ export function useSaveTest(questionsOptions: QuestionOptionsDto[]) {
 
       const { oldLevel, newLevel } = await response.json();
       toastMessage += `\nNivel ajustado de ${oldLevel} para ${newLevel}.`;
+
+      setRefreshThemeList(true);
     }
 
     showToast({
@@ -83,7 +89,7 @@ export function useSaveTest(questionsOptions: QuestionOptionsDto[]) {
       type: 'success',
       button: {
         text: 'Ok',
-        onClick: () => router.back()
+        onClick: () => router.push(`/themes/${data.param_themeId}`),
       },
     });
   }
