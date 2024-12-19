@@ -30,16 +30,6 @@ const CustomToast = ({ message, button }: ToastOptions) => {
   );
 };
 
-// const CustomToast2 = ({ message, button }: ToastOptions) => {
-//   return (
-//     <div className="custom-toast">
-//       <p>{message}</p>
-//       <button onClick={button?.onClick}>Click me</button>
-//       <p><b>Bold test</b> compared to another</p>
-//     </div>
-//   );
-// };
-
 export const showToast = ({ message, type, button }: ToastOptions): Id => {
   const toastContent = <CustomToast message={message} button={button} type={type} />;
 

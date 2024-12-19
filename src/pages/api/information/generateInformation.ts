@@ -9,11 +9,11 @@ export default async function handler(req: any, res: any) {
 
   if (themeId) {
     theme = await ThemeSingleton.getInstance().themeUseCases.findById(themeId);
-  } else {
+  } /*else {
     // TODO: remove this, it's a workaround to get only the first active theme (since we'll be able to have multiple themes)
     const themes = await ThemeSingleton.getInstance().themeUseCases.getActive();
     theme = themes[0];
-  }
+  }*/
 
   if (!theme) {
     return res.status(404).json({ error: 'Theme not found' });
@@ -24,7 +24,7 @@ export default async function handler(req: any, res: any) {
   history = history.filter(info => info.themeId === themeId);
 
   // generate information
-  const information = await InformationSingleton.getInstance().informationUseCases.generate(theme, history);
+  const information = await InformationSingleton.getInstance().informationUseCases.create(theme, history);
 
   return res.status(200).json(information);
 }

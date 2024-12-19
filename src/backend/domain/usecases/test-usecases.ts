@@ -135,7 +135,7 @@ export class TestUseCases {
     return createdTest;
   }
 
-  async generateTest(type: TestType, theme: Theme): Promise<Test> {
+  async create(type: TestType, theme: Theme): Promise<Test> {
     /* Use data from the Theme and question history to generate a new Test */
 
     // get all executed tests for context (as a list of question texts)

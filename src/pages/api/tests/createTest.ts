@@ -28,7 +28,7 @@ export default async function handler(req: any, res: any) {
   }
 
   // create a generated test and save it
-  const test = await TestSingleton.getInstance().testUseCases.generateTest(type, theme);
+  const test = await TestSingleton.getInstance().testUseCases.create(type, theme);
 
   // set the information's testId and save it
   if (information && infoId && test) {

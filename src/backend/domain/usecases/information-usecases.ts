@@ -26,7 +26,7 @@ export class InformationUseCases {
     return await this.informationRepository.update(information);
   }
 
-  async generate(theme: Theme, history: Information[]): Promise<Information> {
+  async create(theme: Theme, history: Information[]): Promise<Information> {
     /* Use data from the Theme  and informaton history to generate a new Information */
     const historyText = history.map((info: Information) => info.information);
     const newInformationText = await this.contentGeneratorService.generateInformation(theme.theme, historyText);
